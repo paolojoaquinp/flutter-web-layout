@@ -1,16 +1,41 @@
-# green_shop
+# Flutter Web Layout
 
-A new Flutter project.
+A layout for Starting developing on a Flutter Web App project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+flutter pub get
+```
+#### Iniciar proyecto desde vscode:
+1. seleccionar dispositivo a Chrome
+```sh
+// windows
+ctrl + ⬆️ + p
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+// mac
+cmd + ⬆️ + p
+```
+![](./chrome-example.png)
+2. Comando para ejecutar 
+```sh
+F5
+```
+## Recursos:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Escribe tu primera app en la web [Get Started Flutter Web](https://docs.flutter.dev/get-started/codelab-web)
+
+- LayoutBuilder widget(Para hacer responsive): [Widget of the week: LayoutBuilder](https://www.youtube.com/watch?v=IYDVcriKjsw)
+
+- Package SEO Friendly: [Package para darle semantica HTML](https://pub.dev/packages/seo_renderer)
+
+### Librerias(Packages utilizados).
+- [Fluro: para controlar rutas dinamicas](https://pub.dev/packages/fluro)
+- [Get It: path provider](https://pub.dev/packages/get_it)
+- [Http: Peticiones(GET, POST, UPDATE, DELETE) desde cualquier url ](https://pub.dev/packages/http)
+- [Http Parser](https://pub.dev/packages/http_parser)
+
+
+@paolojoaquinp
