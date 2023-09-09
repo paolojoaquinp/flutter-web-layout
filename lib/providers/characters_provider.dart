@@ -6,7 +6,8 @@ import 'package:http_parser/http_parser.dart';
 
 
 class CharactersProvider {
-  final String _url = 'https://rickandmortyapi.com/api/character';
+/*   final String _url = 'https://rickandmortyapi.com/api/character'; */
+  final String _url = '';
 
   Future<List<CharacterModel>> cargarCharacters() async {
     final url = Uri.parse('$_url');

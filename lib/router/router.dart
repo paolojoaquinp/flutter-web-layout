@@ -1,7 +1,6 @@
 
 import 'package:fluro/fluro.dart';
 import 'package:green_shop/ui/views/about_view.dart';
-import 'package:green_shop/ui/views/character_view.dart';
 import 'package:green_shop/ui/views/home_view.dart';
 import 'package:green_shop/ui/views/view_404.dart';
 
@@ -19,11 +18,11 @@ class Flurorouter {
       handler: _homeHanlder,
       transitionType: TransitionType.fadeIn
     );
-    router.define(
+/*     router.define(
       '/character/:id',
       handler: _characterHanlder,
       transitionType: TransitionType.fadeIn
-    );
+    ); */
     router.define(
       '/about',
       handler: _aboutHandler,
@@ -39,13 +38,13 @@ class Flurorouter {
       return HomeView();
     }
   );
-  static Handler _characterHanlder = Handler(
+/*   static Handler _characterHanlder = Handler(
     handlerFunc: (context, params) {
       print(params['id']?[0]);
       String idC = params['id']?[0] as String;
       return CharacterView(idC);
     }
-  );
+  ); */
   static Handler _aboutHandler = Handler(
     handlerFunc: (context, params) => AboutView()
   );
