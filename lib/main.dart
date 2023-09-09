@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Green shop',
+      title: 'Flutter app web',
       initialRoute: '/home',
       onGenerateRoute: Flurorouter.router.generator,
       navigatorKey: locator<NavigationService>().navigatorKey,

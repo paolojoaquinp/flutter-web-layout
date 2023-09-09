@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter/src/widgets/framework.dart';
 
+import '../shared/custom_app_menu.dart';
+
+
 class MainLayoutPage extends StatelessWidget {
   final Widget child;
 
@@ -14,9 +17,15 @@ class MainLayoutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child:Column(
+        child: Column(
           children: [
-            /* CustomAppMenu(), */
+
+
+
+            CustomAppBar(),
+
+
+
             Expanded(
               child: child,
             )
