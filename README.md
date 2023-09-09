@@ -31,6 +31,11 @@ F5
 
 - Package SEO Friendly: [Package para darle semantica HTML](https://pub.dev/packages/seo_renderer)
 
+
+## Presentacion
+- (Diapositivas: Presentacion Flutter Web)[https://docs.google.com/presentation/d/1WRVkjeY1KL6y6ORbOItFzQf1EwriVBxL76dYneNSgyo/edit?usp=sharing]
+
+
 ### Librerias(Packages utilizados).
 - [Fluro: para controlar rutas dinamicas](https://pub.dev/packages/fluro)
 - [Get It: path provider](https://pub.dev/packages/get_it)
